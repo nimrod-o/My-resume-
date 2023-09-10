@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0%
+}
+:root{
+    --primary-color:#E2F3F9;
+    --text-color:black;
+
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: Inter,sans-serif;
+    background-color:white;
+    color: black;
+}
+
+/*common styles*/
+img {
+    width: 100px;
+    float: left;
+    margin-right: 25rem;
+    background-color: #59A9B5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*layouts*/
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: 20px;
+    display: grid;
+    padding: 0;
+    background: white ;
+    gap: 4rem;
+}
+@media only screen and (max-width:770px) {
+    .container{
+        width: 100%;
+    }
+}
+.top-information{
+background-color:#59A9B5 ;
+grid-column: 1;
+margin-bottom: 2rem;
+display: flex;
+gap: 5rem;
+}
+.more-info{
+    margin-left: 15rem;
+}
+/*text styles*/
+h1{
+    font-family: Inter;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+h3{
+    font-family: Inter;
+    color: black;
+    background-color:#E2F3F9;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+h4{
+    font-family: Inter;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+p{
+    font-family: Inter;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+}
